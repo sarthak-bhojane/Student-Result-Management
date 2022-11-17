@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="LGM.jpg">
+</head>
+<body>
+    <h1>Student Result Management Site LGM</h1>
+    <nav>
+        <a id="nav-orange" href="task1.html">Home</a>
+        <a id="nav-orange" href="result.html">Result</a>
+    </nav>
+
+    <form action="">
+        <h1>Check Your Result</h1>
+        <p>Required Fileds are followed by *
+            <br>
+            &nbsp Please spare some time to fill the following Feedback for Course
+        </p>
+        <h4>Contact Information</h4>
+        <p>Name: * <input type="text" name="name" required></p>
+        <p>Roll Number: * <input type="text" name="Number" required></p>
+        <p>Email: * <input type="email" name="email" id="email" required></p>
+        <label for="Year"><b>Select Year:</b></label>
+        <select name="Year" id="Year">
+            <option value="">--Select a Year--</option>
+            <option value="first year">First Year</option>
+            <option value="second year">Second Year</option>
+            <option value="third year">Third Year</option>
+            <option value="final year">Final Year</option>
+        </select>
+        <label for="Branch"><b>Branch:</b></label>
+        <select name="Branch" id="Branch">
+            <option value="">--Select a Branch--</option>
+            <option value="cse">CSE</option>
+            <option value="cse">Electrical</option>
+            <option value="cse">Mechanical</option>
+            <option value="cse">Civil</option>
+            <option value="cse">IT</option>
+        </select>
+        <p> <b>Section: * </b>
+            A <input type="radio" name="Section" id="a" required>
+            B <input type="radio" name="Section" id="b" required>
+            C <input type="radio" name="Section" id="c" required>
+        </p>
+        <p> <b>Gender: * </b>
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+        </p>
+        <input type="submit" value="Submit Your Form">
+    </form>
+
+</body>
+</html>
